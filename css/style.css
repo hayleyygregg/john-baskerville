@@ -3,16 +3,18 @@
         body {
             
             background-color: #fcf4dc;
-            font-family: Baskerville, Georgia, serif;
+            font-family: 'Libre Baskerville', Baskerville, Georgia, serif;
             color: #222222;
-            font-size: 16px;
+            font-size: 18px;
             
         }
         
         h1 {
             
-            font-size: 42px;
+            font-size: 48px;
             margin-bottom: 0;
+            letter-spacing: 5px;
+            
             
         }
         
@@ -34,7 +36,7 @@
         
         h2#subtitle {
          
-            margin-top: 10px;
+            margin-top: 5px;
             
         }
         
@@ -42,9 +44,9 @@
             
             width: 80%;
             margin: 0 auto; 
-            font-size: 18px;
+/*            font-size: 18px;*/
             padding: 10px 0px;
-            line-height: 1.2;
+            line-height: 1.3;
             
         }
         
@@ -54,7 +56,7 @@
          
             font-size: 24px;
             text-align: center;
-            padding-top: 40px;
+            padding: 40px;
             
         }
         
@@ -72,6 +74,7 @@
         }
         
         
+
         
         ul {
             
@@ -83,10 +86,16 @@
             
         }
         
+
+
+
+
         ul li {
             
             list-style: none;
             text-transform: uppercase;
+            letter-spacing: 2px;
+            
 
             
         }
@@ -104,6 +113,14 @@
 
             
         }
+
+
+        li.border_top {
+            
+            border-top: 1px solid #d5d5d5;
+            
+            
+        }
         
         
         
@@ -112,7 +129,6 @@
         h1, nav a {
             
             text-transform: uppercase;
-            letter-spacing: 2px;
             
         }
         
@@ -148,6 +164,16 @@
             border-bottom: 1px solid #d5d5d5;
             
         }
+
+
+
+        nav a {
+            
+            letter-spacing: 2px;
+            
+        }
+
+
         
         
         nav ul {
@@ -164,6 +190,8 @@
             margin: 10px;
             
         }
+
+
         
         img {
             
@@ -192,12 +220,19 @@
             
             
         }
+
+        section#intro {
+            
+                        width: 100%;
+            border-bottom: 1px solid #d5d5d5;
+            
+        }
             
         
         blockquote {
          
             margin-top: 60px;
-            margin-bottom: 40px;
+/*            margin-bottom: 40px;*/
             
         }
         
@@ -221,11 +256,25 @@
         }
         
         
-         footer#top {
+ 
+            
+        
+        footer {
+            
+/*            width: 80%;*/
+            margin: 0 auto;
+            border-top: 1px solid #d5d5d5;
+            padding: 20px;
+            
+        }
+
+
+        footer#top {
             
             padding: 40px;
             text-transform: uppercase;
             text-align: right;
+            border-top: none;
             
         }
         
@@ -234,14 +283,6 @@
             
             text-transform: uppercase;
             letter-spacing: 1px;
-            
-        }
-            
-        
-        footer {
-            
-/*            width: 80%;*/
-            margin: 0 auto;
             
         }
             
