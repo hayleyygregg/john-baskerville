@@ -1,19 +1,41 @@
 /* John Baskerville CSS  */  
+
+
+/* Adding Reset */
+
+        * {
+           
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            font-weight: normal;
+            
+            
+        }
         
         body {
             
             background-color: #FFFADE; /* #fcf4dc; */
             font-family: 'Libre Baskerville', Baskerville, Georgia, serif;
-            color: #222222;
-            font-size: 1em;
-            line-height: 1.5;
-            font-weight: normal;
+            color: #222222;   
+            
             
         }
+
+
+        article {
+         
+            min-width: 100px;
+            max-width: 100%;
+            
+        }
+
+
         
         h1 {
             
             font-size: 2.827em;
+            margin: 40px;
             margin-bottom: 0;
             letter-spacing: 5px;
             
@@ -24,6 +46,7 @@
         h2 {
             
             font-size: 1.999em;
+            padding: 40px;
             
         }
         
@@ -38,16 +61,16 @@
         
         h2#subtitle {
          
-            margin-top: 5px;
+            padding: 20px;
             
         }
         
         p {
             
-            width: 80%;
             margin: 0 auto; 
-/*            font-size: 18px;*/
             padding: 10px 0px;
+            line-height: 1.5;
+            font-size: 1em;
 
             
         }
@@ -200,6 +223,8 @@
             display: block;
             margin: 0 auto;
             padding-bottom: 40px;
+/*            width: 100%;*/
+            max-width: 100%; /* resize image so it scale to fit inside parent container */
             
         }
 
@@ -210,6 +235,16 @@
             width: 100%;
             padding: 0;
             
+            
+        }
+
+
+
+        #portrait img {
+            
+            width: auto; /* to stop inheriting from p#portrait */
+        
+        
         }
         
         
@@ -217,7 +252,7 @@
         section {
             
             
-            width: 80%; 
+            width: 70%; 
             margin: 0 auto; 
             
             
@@ -262,8 +297,6 @@
         
         footer {
             
-/*            width: 80%;*/
-            margin: 0 auto;
             border-top: 1px solid #d5d5d5;
             padding: 20px;
             font-size: 0.707em;
@@ -277,6 +310,7 @@
             text-transform: uppercase;
             text-align: right;
             border-top: none;
+            font-size: 1em;
             
         }
         
