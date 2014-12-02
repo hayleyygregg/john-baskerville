@@ -17,18 +17,21 @@
             
             background-color: #FFFADE; /* #fcf4dc; */
             font-family: 'Libre Baskerville', Baskerville, Georgia, serif;
-            color: #222222;   
+            color: #222222;  
+
             
             
         }
 
 
+/*
         article {
          
-            min-width: 100px;
-            max-width: 100%;
+min-width: 300px
+max-width: 760px;
             
         }
+*/
 
 
         
@@ -321,6 +324,45 @@
             letter-spacing: 1px;
             
         }
+
+
+
+/*
+@media screen and (min-width: 300px) {
+    
+
+
+    
+    
+        nav {
+            
+            margin: 0;
+            border: none;
+
+            
+        }
+    
+        nav ul { 
+            
+            width: 400px;
+            padding: 0;
+
+
+            
+        }
+    
+        nav ul li {
+            
+            display: block;
+            padding: 20px;
+            border-top: 1px solid #d5d5d5;
+
+        }
+    
+    
+    
+}
             
         
+*/
         

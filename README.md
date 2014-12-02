@@ -48,4 +48,11 @@ AAD115 John Baskerville Project
 * [Version 11](http://hayleyygregg.github.io/john-baskerville/version-11)
 
 
+####01/12/14
+
+
+* [Version 12](http://hayleyygregg.github.io/john-baskerville/version-12)
+
+
+
 <!-- * [Version 6](http://hayleyygregg.github.io/john-baskerville/version-6)-->
