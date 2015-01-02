@@ -257,6 +257,7 @@ max-width: 760px;
             
             width: 70%; 
             margin: 0 auto; 
+            padding-bottom: 60px;
             
             
         }
@@ -265,6 +266,7 @@ max-width: 760px;
             
             width: 100%;
             border-bottom: 1px solid #d5d5d5;
+            padding: 0;
             
         }
             
@@ -298,15 +300,26 @@ max-width: 760px;
  
             
         
-        footer p {
+        footer {
             
-/*            border-top: 1px solid #d5d5d5;*/
-            padding: 0;
-/*
+            border-top: 1px solid #d5d5d5;
             padding: 20px;
             font-size: 0.707em;
-*/
             
+        }
+
+
+        footer#top {
+            
+            border: none;
+            padding: 0;
+            
+        }
+
+        footer#top p {
+
+            padding: 0;
+
         }
 
 
