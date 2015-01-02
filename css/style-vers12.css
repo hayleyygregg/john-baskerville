@@ -307,16 +307,25 @@ max-width: 760px;
         }
 
 
-        footer#top {
+        footer#top img {
             
+            width: 60px;
+            opacity: 0.3;
+            
+/*
             padding: 40px;
             text-transform: uppercase;
             text-align: right;
             border-top: none;
             font-size: 1em;
+*/
+            position: fixed;
+            top: 500px;
+            right: 50px;
             
         }
         
+/*
         
         footer#top a {
             
@@ -324,6 +333,7 @@ max-width: 760px;
             letter-spacing: 1px;
             
         }
+*/
 
 
 
